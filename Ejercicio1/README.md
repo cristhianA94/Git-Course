@@ -4,8 +4,8 @@ Comandos para gestionar cambios en nuestro repositorio.
 
 
     Cambios entorno
-==============================================================
-``
+=============================================
+```
 git add .
     git add *.txt  -> solo agregara todos los archivos que terminen en esa extension del DIRECTORIO actual
     git add "*.txt" -> agrega todos los archivos .txt de TODO el proyecto 
@@ -15,6 +15,10 @@ git add .
 git reset nom_Archivo ->  quita ese archivo del stage (antes de hacer un commit)
     git reset --soft HEAD -> Regresa al ultimo commit realizado
     git reset --soft HEAD^ -> Regresa al antepenultimo commit realizado
+    git reset --mixed IDCambio -> Regresa a un cambio dejando los cambios hecho hasta ahora
+    git reset --hard IDCambio -> Regresa a un cambio borrando todo lo hecho
+    git redlog -> muestra todos los registros hechos
+        git reset --hard Id -> para volver
 
 git status
     git status -s -> version corta
@@ -34,15 +38,21 @@ git checkout -- example.html -> Revierte los cambios en un archivo
 
 git diff example.html -> muestra la diferencia de lo que se modifico en un archivo
 
-
-``
+```
 
     Alias
-====================================================================
+=============================================
 ```
 git config --global alias.sinomino "comando a simplificar"
 Examples:
 git config --global alias.lg "log --oneline --decorate --all --graph"
 git config --global alias.s "status -s -b"
 git config --global -l -> muestra el log de las configuraciones
+```
+
+    Gestionar archivos
+=============================================
+```
+git mv archivo archivo_nuevo-> cambia y renombra un archivo
+git rm archivo -> elimina un archivo
 ```
