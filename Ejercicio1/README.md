@@ -21,6 +21,7 @@ git status
 
 git commit -m "log_cambio"
     git commit -a -m "log_cambio" -> solo cuando se haya modificado el archivo ya existente, hace un add a la vez que un commit
+    git commit --amend -m "mensaje" -> Edita el ultimo commit hecho
 
 git push -> subir cambios al repositorio web
 
