@@ -23,6 +23,9 @@ Traducción de [Hello World][hello_EN]. `2016.04.07`.
 
 GitHub es una plataforma de alojamiento de código para el control de versiones y la colaboración. Te permite a ti y a otros trabajar juntos en proyectos desde cualquier lugar.
 
+GitHub es herramienta social: si sigues a gente, te aparece su actividad en la página principal: crear repositorio, las estrellas que han dado a otros repositorios.
+
+Puedes hacer watch para ver cuándo hay cambios y dar a me gusta, con la estrella. Hacer una copia con el fork, parecido a crear una rama.
 Este tutorial te enseña lo esencial de GitHub como repositorios , sucursales , confirmaciones y solicitudes de extracción . Creará su propio repositorio Hello World y aprenderá el flujo de trabajo de Solicitud de extracción de GitHub, una forma popular de crear y revisar el código.
 
 

@@ -1,17 +1,10 @@
-## Comandos
+# Comandos
 
 Comandos para gestionar cambios en nuestro repositorio.
 
 
-    Cambios entorno
-=============================================
+## Cambios entorno
 ```
-git add .
-    git add *.txt  -> solo agregara todos los archivos que terminen en esa extension del DIRECTORIO actual
-    git add "*.txt" -> agrega todos los archivos .txt de TODO el proyecto 
-    git add folder/*.txt -> agrega todos los archivos .txt dentro de esa carpeta
-    git add folder/ -> agrega todos los archivos dentro de esa carpeta
-
 git reset nom_Archivo ->  quita ese archivo del stage (antes de hacer un commit)
     git reset --soft HEAD -> Regresa al ultimo commit realizado
     git reset --soft HEAD^ -> Regresa al antepenultimo commit realizado
@@ -40,8 +33,8 @@ git diff example.html -> muestra la diferencia de lo que se modifico en un archi
 
 ```
 
-    Alias
-=============================================
+## Alias
+
 ```
 git config --global alias.sinomino "comando a simplificar"
 Examples:
@@ -50,14 +43,13 @@ git config --global alias.s "status -s -b"
 git config --global -l -> muestra el log de las configuraciones
 ```
 
-    Gestionar archivos
-=============================================
+## Gestionar archivos
+
 ```
 git mv archivo archivo_nuevo-> cambia y renombra un archivo
 git rm archivo -> elimina un archivo
 ```
-
-
+****
 Notas git
 =========
 
@@ -77,14 +69,14 @@ Secuencia: Directorio de trabajo -> Index -> HEAD
 
 Notas: 
 
-- git add . añadirá el contenido del directorio en el que te encuentras incluyendo subdirectorios.
-  
+- git add . -> añadirá el contenido del directorio en el que te encuentras incluyendo subdirectorios.
+- git add *.txt  -> solo agregara todos los archivos que terminen en esa extension del DIRECTORIO actual
+- git add "*.txt" -> agrega todos los archivos .txt de TODO el proyecto 
+- git add folder/*.txt -> agrega todos los archivos .txt dentro de esa carpeta
+- git add folder/ -> agrega todos los archivos dentro de esa carpeta  
 - Si haces git add y luego modificas, en Index no tendrías estas últimas modificaciones. 
-
 - git add -u: añadir al index los archivos que deben ser borrados.
-
 - git add -A: suma de git add -u y git add .
-
 - git add -a: git add -A y commit (aunque mejor hacer por separado add y commit).
 
 ## git remote
@@ -112,7 +104,7 @@ Notas:
 - git rm fichero borra también el index.
 
 - git rm --cached fichero o git reset HEAD fichero: borrar del index pero no del fichero de trabajo.
-
+****
 ## Rehacer un commit
 
 - git commit --amend: ej. reescribir un comentario si no hay cambios. También puedes añadir cambios al index antes de hacer el amend.
@@ -165,15 +157,6 @@ Lo que hay entre HEAD y los iguales es lo que tienes en tu HEAD, a continuación
 
 - git push origin : rama
 
-## GitHub
-
-GitHub herramienta social: si sigues a gente, te aparece su actividad en la página principal: crear repositorio, las estrellas que han dado a otros repositorios.
-
-Puedes hacer watch para ver cuándo hay cambios y dar a me gusta, con la estrella. Hacer una copia con el fork, parecido a crear una rama.
-
-Puedes publicar páginas relacionadas con el proyecto o sobre lo que quieras. 
-
-Eliges el lugar desde donde se publican y puedes generarla con Automatic Page Generator.
 
 ## Travis
 
@@ -241,8 +224,7 @@ git rebase —continue
 git push origin <branchname> -f
 
 - Hacer una pull request
-
-## Repo Original Aprende git
+****
 
 [![Build Status](https://travis-ci.org/oslugr/curso-git.svg?branch=master)](https://travis-ci.org/oslugr/curso-git)
 
@@ -251,21 +233,7 @@ Repositorio con el material para el [libro *Aprende git*](http://amzn.to/2uOSCzX
 aunque finalmente hemos encontrado que funciona mejor transformándolo
 con [Pandoc](http://pandoc.org/).
 
-Incluye seis módulos usados en el
-[curso virtual de Git](http://cevug.ugr.es/git), que también
-[puedes descargarte en cualquiera de las versiones en ePub](https://github.com/oslugr/curso-git/releases), 
-[comprar en Amazon en formato ebook](https://www.amazon.es/dp/B00K515GL2?tag=atalaya-21&camp=3634&creative=24822&linkCode=as4&creativeASIN=B00K515GL2&adid=0MNVCEFMSN6CVHJCCJEH&)
-o
-[en formato físico](https://www.amazon.es/Aprende-Git-y-camino-GitHub/dp/1521889619/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1411621815&sr=1-2). Si necesitas generar otro formato, puedes inspirarte en los conversores que [hay en el directorio `utils`](utils/).
 
-## Índice
-
-1. [Introducción](texto/introduccion.md).
-2. [Uso básico](texto/uso_basico.md).
-3. [Resolviendo conflictos y otros problemas](texto/solucion_problemas.md).
-4. [Flujos de trabajo y otras buenas prácticas](texto/mas_usos.md).
-5. [Trabajando en GitHub](texto/github.md).
-6. [Trabajando con *hooks* y otros temas de fontanería](texto/ganchos.md).
 
 ## Más información
 
