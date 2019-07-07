@@ -11,7 +11,7 @@ En este apartado veremos cómo se usa git de forma básica para trabajar en modo
   - [Instalar Git](#Instalar-Git)
   - [Empezando a usar Git](#Empezando-a-usar-Git)
     - [Crear un repositorio](#Crear-un-repositorio)
-    - [Iniciando repositorio](#Iniciando-repositorio)
+    - [Iniciando repositorio](#Iniciando-un-repositorio)
     - [Clonando un repositorio](#Clonando-un-repositorio)
     - [¿Cómo funciona git?](#¿Cómo-funciona-git?)
     - [Configurar](#Configurar)
@@ -130,6 +130,14 @@ git config --list
 Si te has equivocado al escribir alguno de estos datos o quieres cambiarlo, solo tienes que volver a ejecutar el comando correspondiente de nuevo, y sobrescribirá los datos anteriores.
 
 Una opción de configuración muy cómoda es `git config --global color.ui true`, que hace que la interfaz de git use (si es posible) colores para resaltar distintos aspectos en el texto de sus mensajes.
+
+### Crear un repositorio
+
+Para crear un repositorio nos dirigimos a la sección `Repositories` y hacemos click en `New`.
+
+![Create a New Repository](https://user-images.githubusercontent.com/24251638/60774992-2d070a80-a0e2-11e9-96b1-8ffe8c329fc8.jpg)
+
+Ingresamos un nombre a nuestro repositorio, una breve descripción de él, elegimos si nuestro repositorio va a ser `Public` o `Private` (solo admito unos pocos repositorios gratuitos privados) y por último nos permite crear un README automáticamente.
 
 ### Iniciando un repositorio
 
