@@ -16,7 +16,11 @@ Traducción de [Hello World][hello_EN]. `2016.04.07`.
     - [Discutir y revisar tu código](#discutir-y-revisar-tu-código)
     - [Desplegar](#desplegar)
     - [Fusionar e implementar](#fusionar-e-implementar)
-  - [Comandos Básicos](/uso_basico.md)
+  - [Uso Básico](/uso_basico.md)
+  - [Comandos](/comandos.md)
+  - [Lenguaje Markdown](https://github.com/cristhianA94/Documentacion/blob/master/Markdown/GitHub_Flavores_Markdown.md)
+    - [Template README español](/template_README_SPA.md)
+    - [Template README english ](/template_README_ENG.md)
 ****
 
 # ¿Qué es GitHub? #
