@@ -3,7 +3,7 @@ Curso para entender la forma de trabajo de GitHub
 
 Traducción de [Understanding the GitHub Workflow][flow_EN]. `2017.11.30`.
 
-Traducción de [Hello World][hello_EN]. `2016.04.07`.
+Traducción de [Hello World][hello_EN]. `2019.07.07`.
 
 [hello_EN]: https://guides.github.com/activities/hello-world/
 [flow_EN]: http://guides.github.com/overviews/flow/
@@ -21,6 +21,7 @@ Traducción de [Hello World][hello_EN]. `2016.04.07`.
   - [Lenguaje Markdown](https://github.com/cristhianA94/Documentacion/blob/master/Markdown/GitHub_Flavores_Markdown.md)
     - [Template README español](/template_README_SPA.md)
     - [Template README english ](/template_README_ENG.md)
+  - [Curso GIT ](https://github.com/oslugr/curso-git/tree/fa8b7521968bddf235285347775b21dd121b5c11/texto)
 ****
 
 # ¿Qué es GitHub? #
